@@ -1,4 +1,0 @@
-Root User: adminq79zXUI
-   Root Password: _qqaNJS2zxa3
-   Database Name: yii2basic
-URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
