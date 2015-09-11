@@ -52,6 +52,7 @@ class SiteController extends Controller {
 		];
 	}
 	public function actionIndex() {
+		echo '5';
 		return $this->render ( 'index' );
 	}
 	public function actionLogin() {
