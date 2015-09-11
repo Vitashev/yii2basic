@@ -51,6 +51,10 @@ class SiteController extends Controller {
 				] 
 		];
 	}
+	public function actionSay($message = 'Привет')
+    	{
+        return $this->render('say', ['message' => $message]);
+    	}
 	public function actionIndex() {
 		return $this->render ( 'index' );
 	}
